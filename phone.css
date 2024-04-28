@@ -1,0 +1,32 @@
+.phone-container {
+    position: fixed;
+    bottom: 50%;
+    right: 0px;
+    z-index: 999; 
+  }
+  
+  .phone-info {
+    position: relative;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #252525;
+    padding: 22px;
+  }
+  
+  .phone-info img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }
+  
+  .phone-number {
+    color: #0acb84;
+    opacity: 0;
+     transition: opacity 0.6s ease-in-out; 
+    display: none;
+  }
+  
+  .phone-info:hover .phone-number {
+    opacity: 1;
+  }

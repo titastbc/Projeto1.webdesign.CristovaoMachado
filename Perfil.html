@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário</title>
+    <link rel="stylesheet" type="text/css" href="Login.css">
+    <link rel="stylesheet" type="text/css" href="perfil.css">
+</head>
+<body>
+    <div id="perfilinf" class="perfilinfo">
+        <h1>Perfil</h1>
+        <p>Informações do perfil:</p>
+        <div id="perfil-info"></div>
+        <button id="alterar" type="button" class="login-button">Alterar Informações</button>
+    </div>
+    <div class="editinfo">
+        <h1>Editar Informações</h1>
+        <form method="post" id="meuFormulario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="morada">Morada:</label>
+            <input id="morada" name="morada"><br><br>
+            <label for="codigopostal">Codigo Postal:</label>
+            <input id="codigopostal" name="codigopostal"><br><br>
+            <label for="pais" >Pais:</label>
+            <input id="pais" name="pais"><br><br>
+            <button id="guardar" type="submit" class="login-button">Guardar alterações</button>
+        </form>
+    </div>
+
+
+<script src="perfil.js"></script>
+</body>
+</html>

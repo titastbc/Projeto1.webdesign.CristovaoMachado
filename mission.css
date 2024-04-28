@@ -1,0 +1,51 @@
+.missao h1 {
+    font-size: 48px;
+    color: #0075be;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.Conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-left : 50px;
+    margin-right: 50px;
+    padding-bottom: 100px; 
+    border-bottom: 2px solid #7d7d7d; 
+}
+
+.imgbox {
+    width: 25%;
+}
+.textbox {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}   
+.Conteudo img {
+    margin-right: 50px;
+}
+
+#text11 {
+    color: #252525; 
+    font-weight: bold;
+}
+
+.textall{
+    color: #7d7d7d ;
+    line-height: 1.4;
+}
+
+.textbox a {
+    color: #0075be;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 1,2;
+}
+
+.textbox a:hover {
+    text-decoration: underline;
+}

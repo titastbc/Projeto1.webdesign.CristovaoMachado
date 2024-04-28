@@ -1,0 +1,55 @@
+.equipa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 100px; 
+    border-bottom: 2px solid #7d7d7d; 
+}
+
+.titulo {
+    font-size: 48px;
+    color: #0075be;
+    margin: 0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.pessoa {
+    position: relative;
+    margin-right: 30px;
+    overflow: hidden;
+  }
+  
+  .pessoa img {
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .pessoa:hover img {
+    transform: scale(1.1);
+    border-radius: 0% ;
+  }
+  
+  .pessoa .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #fff;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+  }
+  
+  .pessoa:hover .info {
+    transform: translateY(0);
+  }
+
+  .pessoa .info h3 {
+    font-size: 125%; 
+    font-weight: bold; 
+  }
+

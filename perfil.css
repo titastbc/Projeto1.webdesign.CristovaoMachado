@@ -1,0 +1,30 @@
+.perfilinfo{
+    display: block;
+    text-align: center  ;
+}
+
+
+
+
+.editinfo{
+    display: none;
+}
+
+h1{
+text-align: center;
+}
+
+label{
+        display: inline-block; 
+        width: 100px; 
+        margin-right: 10px; 
+}
+
+input{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#meuFormulario{
+    text-align: center;
+}
